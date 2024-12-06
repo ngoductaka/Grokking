@@ -1,7 +1,7 @@
-const list = [2, 1, 5, 2, 3, 2]
-const k = 3;
+const list1 = [2, 1, 5, 2, 3, 2]
+const k1 = 3;
 
-const find = () => {
+const find = (list, k) => {
     const resultList = [];
     let startIndex = 0;
     let total = 0;
@@ -16,4 +16,4 @@ const find = () => {
     console.log(resultList)
 
 }
-find();
+find(list1, k1);
