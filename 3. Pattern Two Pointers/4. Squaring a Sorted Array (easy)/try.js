@@ -1,3 +1,5 @@
+// biến list số thánh list số bình phương từ thấp => cao
+
 const makeSquare = (arr) => {
     let end = arr.findIndex(i => i === 0);
     if(end <= 0 ) {
